@@ -3,7 +3,7 @@ import math
 
 try:
     city_name = str(input("Enter a city name or a country name: ")).capitalize()
-    api_key = "f910cbfab5f6c1f1b2edd27f0c4fd358"
+    api_key = ""
 
     def weather_report(api, city):
         url = f"https://api.openweathermap.org/data/2.5/weather?q={city}&appid={api}"
